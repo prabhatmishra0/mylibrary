@@ -1,0 +1,15 @@
+/* border 1px for testing perpous */
+
+.b1{ border: 1px solid black; }
+.b1{ border: 1px solid red; }
+.b1{ border: 1px solid green; }
+.b1{ border: 1px solid blue; }
+.b1{ border: 1px solid blueviolet; }
+
+/* border 2px for testing perpous */
+
+.b2{ border: 2px solid black; }
+.b2{ border: 2px solid red; }
+.b2{ border: 2px solid green; }
+.b2{ border: 2px solid blue; }
+.b2{ border: 2px solid blueviolet; }

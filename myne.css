@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* border .5px for perfect efect */
+
+.b5b {
+  border: 0.5px solid rgb(31, 31, 31);
+}
+.b5r {
+  border: 0.5px solid rgb(230, 33, 33);
+}
+.b5gr {
+  border: 0.5px solid green;
+}
+.b5bl {
+  border: 0.5px solid rgb(54, 54, 253);
+}
+
+/* border 1px solid start from here */
+
+.b1b {
+  border: 1px solid rgb(49, 49, 49);
+}
+.b1r {
+  border: 1px solid rgb(224, 75, 75);
+}
+.b1gr {
+  border: 1px solid rgb(63, 199, 63);
+}
+.b1bl {
+  border: 1px solid rgb(82, 82, 214);
+}
+
+.on {
+  outline: none;
+}
+
+.bn {
+  border: 0px solid #000;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.hc {
+  text-align: center;
+}
