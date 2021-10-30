@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -6,6 +8,10 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+}
+
+:root {
+  --poppins: "Poppins", sans-serif;
 }
 
 /* border .5px for perfect efect */
@@ -66,26 +72,56 @@
   text-align: center;
 }
 
-/* for design scroll bar  */
+/* here for welcome tag css */
 
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
+welcome {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("background-banner.jpg"); */
+}
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backimg {
+  width: 100%;
+  height: 100vh;
+  display: fixed;
+  text-align: center;
+  vertical-align: center;
+  font-family: var(--poppins);
+  color: #fff;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+.linear {
+  padding: 14%;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #4747ff;
-  border-radius: 4px;
+.brand-image {
+  font-size: 36px;
+  font-weight: 600px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #1515f8;
+.quato {
+  font-size: 18px;
+}
+
+.comming-soon {
+  font-size: 80px;
+}
+
+.clientnumber {
+  color: #fff;
+  font-size: 20px;
+}
+
+.linear {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(178, 36, 239, 0.8),
+    rgba(117, 121, 255, 0.8)
+  );
 }
