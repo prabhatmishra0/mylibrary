@@ -70,9 +70,53 @@ window.onload = () => {
         html += "</div>";
         html += "</div>";
         html += "</div>";
+
+        let bi = document.getElementsByTagName("body");
+        bi.style.backgroundImage = 
         
         we[i].innerHTML = html;
     }
 
+    // Poster js start from here
+
+    po = document.getElementsByTagName("poster");
+    pl = po.length;
+    
+    // it's loop for make the poster tag
+
+    for (i = 0; i < pl; i++){
+
+        var io, it, ith, ifo, ifi;
+        if (po[i].getAttribute("sone") != undefined) {
+            io = po[i].getAttribute("some");
+        }
+        if (po[i].getAttribute("itwo") != undefined) {
+            it = pt[i].getAttribute("itwo");
+        }
+        if (po[i].getAttribute("ithree") != undefined) {
+            ith = po[i].getAttribute("ithree");
+        }
+        if (po[i].getAttribute("ifour") != undefined) {
+            ifo = po[i].getAttribute("ifour");
+        }
+        if (po[i].getAttribute("ifive") != undefined) {
+            ifi = po[i].getAttribute("ifive");
+        }
+
+        var html = "<div class='main-poster-div' id='mpd'> ";
+        html += "<img href=' " + io + " ' class='poster-img' />";
+        html += "<img href=' " + it + " ' class='poster-img' />";
+        html += "<img href=' " + ith + " ' class='poster-img' />";
+        html += "<img href=' " + ifo + " ' class='poster-img' />";
+        html += "<img href=' " + ifi + " ' class='poster-img' />";
+        html += "</div>";
+
+        po[i].innerHTML = html;
+
+    }
+
+
+    // isme side arrow or image hover dot add karna h
+    // aur study slide function on it 
 
 }

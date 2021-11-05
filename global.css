@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
 
+:root {
+  --poppins: "Poppins", sans-serif;
+}
 
 /* for design scroll bar  */
 
@@ -25,14 +37,54 @@
   background: #1515f8;
 }
 
-
 /* it's a global font style list */
 
 /* poppins */
-.po{
-  font-family: "Poppins", sans-serif;git ;
+.po {
+  font-family: var(--poppins);
 }
 /* Roboto */
 /* Baloo 2 */
 /* Bhanscript */
 /* Heebo */
+
+
+/* for input field */
+
+
+.on {
+  outline: none;
+}
+
+.bn {
+  border: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.hc {
+  text-align: center;
+}
+
+/* for table globaly things here */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* button color who have nothing */
