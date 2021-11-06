@@ -87,11 +87,12 @@ window.onload = () => {
     for (i = 0; i < pl; i++){
 
         var io, it, ith, ifo, ifi;
-        if (po[i].getAttribute("sone") != undefined) {
-            io = po[i].getAttribute("some");
+        if (po[i].getAttribute("ione") != undefined) {
+            io = po[i].getAttribute("ione");
+            console.log(io);
         }
         if (po[i].getAttribute("itwo") != undefined) {
-            it = pt[i].getAttribute("itwo");
+            it = po[i].getAttribute("itwo");
         }
         if (po[i].getAttribute("ithree") != undefined) {
             ith = po[i].getAttribute("ithree");

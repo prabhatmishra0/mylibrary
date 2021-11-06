@@ -1,12 +1,11 @@
 // it's a global timing funtion
 
 function time() {
-    let time = new Date().toLocaleTimeString();
-    // console.log(time);
-    // document.write(t);
-    return time;
+    var time = new Date().toLocaleTimeString();
+    document.write(time);
 }
 
+// setInterval(time, 1000);
 // export default time;
 
 
