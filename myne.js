@@ -26,6 +26,24 @@ function time() {
 // it's a validation function list
 
 // number validation function 
+
+function phonenumber(inputtxt) {
+            
+            var phoneno = /^\d{10}$/;
+    if (inputtxt.value.match(phoneno))
+            {
+                return true;
+                    }
+                else
+                    {
+                    alert("message");
+                    return false;
+                    }
+}
+            
+function phonenumber(inputtxt) {
+    var phoneno 
+}
 // name validation function
 // Email validation function
 // password validation function 

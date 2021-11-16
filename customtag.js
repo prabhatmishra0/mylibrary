@@ -105,11 +105,11 @@ window.onload = () => {
         }
 
         var html = "<div class='main-poster-div' id='mpd'> ";
-        html += "<img href=' " + io + " ' class='poster-img' />";
-        html += "<img href=' " + it + " ' class='poster-img' />";
-        html += "<img href=' " + ith + " ' class='poster-img' />";
-        html += "<img href=' " + ifo + " ' class='poster-img' />";
-        html += "<img href=' " + ifi + " ' class='poster-img' />";
+        html += "<img src=' " + io + " ' class='poster-img' />";
+        html += "<img src=' " + it + " ' class='poster-img' />";
+        html += "<img src=' " + ith + " ' class='poster-img' />";
+        html += "<img src=' " + ifo + " ' class='poster-img' />";
+        html += "<img src=' " + ifi + " ' class='poster-img' />";
         html += "</div>";
 
         po[i].innerHTML = html;
@@ -119,5 +119,28 @@ window.onload = () => {
 
     // isme side arrow or image hover dot add karna h
     // aur study slide function on it 
+
+
+    // here add custom nav tag js
+    
+    var nav = document.getElementsByTagName("na");
+    var navlength = nav.length;
+
+    for (i = 0; i < navlength; i++){
+        var im, li;
+        if (nav[i].getAttribute("i") != undefined) {
+            im = nav[i].getAttribute(i);
+        }
+        if (nav[i].getAttribute("i") != undefined) {
+            li = nav[i].getAttribute(i);
+        }
+
+        var navmenu = li.split(",");
+
+        console.log(navmenu[i][0]);
+
+
+
+    }
 
 }
