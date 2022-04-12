@@ -1,3 +1,6 @@
+// t tag for time when you use t tag any time given by function 
+
+
 window.onload = () => {
 
     // it's line get t tag
@@ -15,13 +18,27 @@ window.onload = () => {
     // } else {
     //     tp.innerHTML = t;
     // }
-    
+
+
+    var t = document.getElementsByTagName("time");
+    for (i = 0; i < t.length; i++) {
+        tim = new Date().toLocaleTimeString();
+        console.log(tim);
+        t[i].innerHTML = tim;
+    }
+
+    var d = document.getElementsByTagName("date");
+    for (i = 0; i < d.length; i++) {
+        tim = new Date().toLocaleDateString();
+        console.log(tim);
+        t[i].innerHTML = tim;
+    }
 
     // it's line get e tag
     let e = document.getElementsByTagName("e");
 
     // it's loop for all t tag (it's give email on e tag)
-    for (i = 0; i < e.length; i++){
+    for (i = 0; i < e.length; i++) {
         e[i].innerHTML = "demo@gmail.com";
     }
 
@@ -29,16 +46,8 @@ window.onload = () => {
     let a = document.getElementsByTagName("ad");
 
     // it's loop for all t tag (it's give address on ad tag)
-    for (i = 0; i <a.length; i++){
+    for (i = 0; i < a.length; i++) {
         a[i].innerHTML = "49 demo - 1 falne Nager , Kanpur";
-    }
-
-
-    // t tag for time when you use t tag any time given by function 
-
-    var t = document.getElementsByTagName("t");
-    for (i = 0; i < t.length; i++){
-        t[i].innerHTML = "9:47";
     }
 
     // welcome tag for full web template for screen
@@ -58,33 +67,33 @@ window.onload = () => {
         if (we[i].getAttribute("tel") != undefined) {
             tel = we[i].getAttribute("tel");
         }
-       
+
         console.log(sr);
         var html = "<div id='bi' class='backimg'>";
         html += "<div class='linear'>";
         html += "<div class='middle'>";
-        html += "<h1 class='brand-name'>"+ bn +"</h1>";
-        html += "<p class='quato'>"+ ql +"</p>";
+        html += "<h1 class='brand-name'>" + bn + "</h1>";
+        html += "<p class='quato'>" + ql + "</p>";
         html += "<h1 class='comming-soon'>Comming Soon</h1>";
-        html += "<a href=' tel:"+ tel +" ' class='clientnumber'>"+ tel +"</a>";
+        html += "<a href=' tel:" + tel + " ' class='clientnumber'>" + tel + "</a>";
         html += "</div>";
         html += "</div>";
         html += "</div>";
 
         let bi = document.getElementsByTagName("body");
-        bi.style.backgroundImage = 
-        
-        we[i].innerHTML = html;
+        bi.style.backgroundImage =
+
+            we[i].innerHTML = html;
     }
 
     // Poster js start from here
 
     po = document.getElementsByTagName("poster");
     pl = po.length;
-    
+
     // it's loop for make the poster tag
 
-    for (i = 0; i < pl; i++){
+    for (i = 0; i < pl; i++) {
 
         var io, it, ith, ifo, ifi;
         if (po[i].getAttribute("ione") != undefined) {
@@ -122,11 +131,11 @@ window.onload = () => {
 
 
     // here add custom nav tag js
-    
+
     var nav = document.getElementsByTagName("na");
     var navlength = nav.length;
 
-    for (i = 0; i < navlength; i++){
+    for (i = 0; i < navlength; i++) {
         var im, li;
         if (nav[i].getAttribute("i") != undefined) {
             im = nav[i].getAttribute(i);

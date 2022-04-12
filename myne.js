@@ -14,7 +14,7 @@ function time() {
 // MyObject = {
 //     abc: function(...) {...},
 //     pqr: function(...) {...}
-    // other functions...
+// other functions...
 // }
 
 
@@ -28,23 +28,21 @@ function time() {
 // number validation function 
 
 function phonenumber(inputtxt) {
-            
-            var phoneno = /^\d{10}$/;
-    if (inputtxt.value.match(phoneno))
-            {
-                return true;
-                    }
-                else
-                    {
-                    alert("message");
-                    return false;
-                    }
+
+    var phoneno = /^\d{10}$/;
+    if (inputtxt.value.match(phoneno)) {
+        return true;
+    }
+    else {
+        alert("message");
+        return false;
+    }
 }
-            
+
 function phonenumber(inputtxt) {
-    var phoneno 
+    
 }
 // name validation function
 // Email validation function
-// password validation function 
+// password validation function
 // otp validation function 
